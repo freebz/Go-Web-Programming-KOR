@@ -1,0 +1,16 @@
+<!-- 예제 5-4. 조건부 액션을 수행하는 템플릿 파일 tmpl.html -->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Go Web Programming</title>
+  </head>
+  <body>
+    {{ if . }}
+      Number is greater than 5!
+    {{ else }}
+      Number is 5 or less!
+    {{ end }}
+  </body>
+</html>
