@@ -1,0 +1,6 @@
+<!-- 예제 7-3. Post를 표현하는 간단한 XML 엘리먼트 -->
+
+<post id="1">
+  <content>Hello World!</content>
+  <author id="2">Sau Sheong</author>
+</post>
